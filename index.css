@@ -1,0 +1,27 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+canvas {vertical-align: top;}
+
+/*
+ * Set default style for all the tags.
+ * Apply to the main content division as well.
+ */
+body {
+	color: #000;
+	font-family: "Segoe UI", Segoe, Calibri, "Nimbus Sans L", "Ubuntu", Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	   /* for Ubuntu: "Nimbus Sans L", "Ubuntu" */
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.header-footer {
+    background-color: rgb(150, 150, 150);
+	font-family: "Segoe UI", Segoe, Calibri, "Nimbus Sans L", "Ubuntu", Tahoma, Arial, Helvetica, Verdana, sans-seri;
+	font-size: 13px;
+	text-align: left;
+	padding: 15px 10px;
+}
