@@ -8,12 +8,12 @@ function setup() {
     for (var i = 0; i < 1000; i++) {
         var x = random(-width * 2, width * 2);
         var y = random(-height * 2, height * 2);
-        blobs[i] = new Blob(x, y, 16, 255, 255, 255);
+        blobs[i] = new Blob(x, y, 16);
     }
     setInterval(function() {
         var x = random(-width * 2, width * 2);
         var y = random(-height * 2, height * 2);
-        blobs.push(new Blob(x, y, 16, 255, 255, 255));
+        blobs.push(new Blob(x, y, 16));
     }, 1000);
     stroke(255);
     fill(255);
