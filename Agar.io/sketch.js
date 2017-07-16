@@ -2,6 +2,10 @@ var blob;
 var blobs = [];
 var zoom = 1;
 
+function windowResized(){
+    resizeCanvas($(document).width(), $(document).height());
+}
+
 function setup() {
     createCanvas($(document).width(), $(document).height());
     blob = new Blob(0, 0, 64);
