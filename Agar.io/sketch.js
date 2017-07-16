@@ -3,7 +3,7 @@ var blobs = [];
 var zoom = 1;
 
 function windowResized(){
-    resizeCanvas($(document).width(), $(document).height());
+    resizeCanvas(windowWidth, windowHeight);
 }
 
 function setup() {
